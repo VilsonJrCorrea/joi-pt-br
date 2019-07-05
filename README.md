@@ -2,9 +2,27 @@
 
 # joi
 
-Object schema description language and validator for JavaScript objects.
+Object schema description language and validator for JavaScript objects based in [joi (hapijs)](https://github.com/hapijs/joi) in pt-br.
 
 [![Build Status](https://travis-ci.org/hapijs/joi.svg?branch=master)](https://travis-ci.org/hapijs/joi)
+
+
+## Installation
+You can install using `npm`:
+
+`npm install joi-pt-br`
+
+Or you can install using `yarn`:
+
+`yarn add joi-pt-br`
+
+## Initialization
+
+You can generate your file with the messages in pt-br using:
+
+`joi-pt-br init`
+
+
 
 ## Introduction
 
