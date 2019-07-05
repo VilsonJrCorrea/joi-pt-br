@@ -13,3 +13,4 @@ coverage.*
 **/.idea
 
 sandbox.js
+joi-pt-br.config.js
