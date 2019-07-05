@@ -14,5 +14,6 @@ coverage.*
 
 sandbox.js
 joi-pt-br.config.js
+!bin/template/joi-pt-br.config.js
 yarn-error.log
 yarn.lock
