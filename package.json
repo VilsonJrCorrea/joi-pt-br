@@ -1,9 +1,15 @@
 {
-  "name": "@hapi/joi",
-  "description": "Object schema validation",
-  "version": "16.0.0-rc2",
-  "homepage": "https://github.com/hapijs/joi",
-  "repository": "git://github.com/hapijs/joi",
+  "name": "@correa/joi-pt-br",
+  "description": "Object schema validation based in joi from hapijs",
+  "version": "1.0.0",
+  "repository": "git://github.com/VilsonJrCorrea/joi-pt-br",
+  "bin": {
+    "@correa/joi-pt-br": "bin/joi-pt-br",
+    "joi-pt-br": "bin/joi-pt-br"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "lib/index.js",
   "keywords": [
     "schema",
@@ -15,7 +21,15 @@
     "@hapi/formula": "1.x.x",
     "@hapi/hoek": "8.x.x",
     "@hapi/marker": "1.x.x",
-    "@hapi/topo": "3.x.x"
+    "@hapi/topo": "3.x.x",
+    "arg": "4.1.0",
+    "chalk": "2.4.2",
+    "esm": "3.2.25",
+    "execa": "2.0.2",
+    "inquirer": "6.4.1",
+    "listr": "0.14.3",
+    "ncp": "2.0.0",
+    "pkg-install": "1.0.0"
   },
   "devDependencies": {
     "@hapi/code": "5.x.x",
